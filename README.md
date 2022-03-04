@@ -97,9 +97,10 @@ go get github.com/gin-gonic/gin
 go get go.mongodb.org/mongo-driver
 ```
 ```
-go get github.com/parsaakbari1209/go-mongo-CRUD-web/
+go get github.com/abshzap17797/go-mongo-CRUD-web/
 ```
-Then change directory to *<$GOPATH>/src/github.com/parsaakbari1209/go-mongo-CRUD-web/* and run:
+Then change directory to *<$GOPATH>/src/github.com/abshzap17797
+/go-mongo-CRUD-web/* and run:
 ```
 go run main.go
 ```
