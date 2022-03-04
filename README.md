@@ -18,7 +18,7 @@ This is only to check if the server is running.
 ## /users/find  
 Send a GET request(only email as parameter). Ex)
 ```
-localhost:8080/users/find?email=akbariparsa1209@gmail.com
+localhost:8080/users/find?email=abhisheksharma_2@zapbuild.com
 ```
 Returns a json:
 ```
@@ -33,8 +33,8 @@ Returns a json:
 Send a POST request with a json body. Ex)
 ```
 {
-  "name": "Parsa Akbari",
-  "email": "akbariparsa1209@gmail.com",
+  "name": "AbhiShek Sharma",
+  "email": "abhisheksharma_2@zapbuild.com",
   "password": "abcd1234"
 }
 ```
@@ -51,7 +51,7 @@ This endpoint creates a document in the *users* collection of the *users* databa
 ## /users/update  
 Send a GET request. Ex)
 ```
-localhost:8080/users/update?email=akbariparsa1209@gmail.com&field=name&value=Parsa
+localhost:8080/users/update?email=abhisheksharma_2@zapbuild.com&field=name&value=Abhi
 ```
 Returns a json:
 ```
@@ -62,11 +62,11 @@ Returns a json:
   "password": ""
 }
 ```
-This endpoint updates the field *name* of the user with specified email to the value of *Parsa* and returns the updated user profile.  
+This endpoint updates the field *name* of the user with specified email to the value of *Abhi* and returns the updated user profile.  
 ## /users/delete
 Send a GET request. Ex)
 ```
-localhost:8080/users/delete?email=akbariparsa1209@gmail.com
+localhost:8080/users/delete?email=abhisheksharma_2@zapbuild.com
 ```
 Returns a json:
 ```
